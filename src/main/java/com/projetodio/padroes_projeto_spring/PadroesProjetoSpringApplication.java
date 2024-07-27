@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PadroesProjetoSpringApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(PadroesProjetoSpringApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(PadroesProjetoSpringApplication.class, args);
+        System.out.println("teste");
+    }
 
 }
