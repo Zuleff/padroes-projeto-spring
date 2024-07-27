@@ -34,14 +34,14 @@ public class ClienteService implements ClienteServiceInterface {
 
     @Override
     public void inserir(Cliente cliente) {
-        if (clienteRepository.existsById(cliente.getId())) {
-            salvarClienteComCep(cliente);
-        }
+        salvarClienteComCep(cliente);
     }
 
     @Override
     public void atualizar(Long id, Cliente cliente) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        if (clienteRepository.existsById(cliente.getId())) {
+            salvarClienteComCep(cliente);
+        }
     }
 
     @Override
