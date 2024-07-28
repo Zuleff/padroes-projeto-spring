@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.projetodio.padroes_projeto_spring.model.Cliente;
 import com.projetodio.padroes_projeto_spring.service.ClienteService;
 
+/**
+ * @author luiz.vieira
+ */
 @RestController
 @RequestMapping("clientes")
 public class ClienteRestController {

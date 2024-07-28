@@ -5,7 +5,9 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+/**
+ * @author luiz.vieira
+ */
 @Getter
 @Setter
 @ToString

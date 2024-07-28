@@ -4,7 +4,9 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.projetodio.padroes_projeto_spring.model.Cliente;
-
+/**
+ * @author luiz.vieira
+ */
 @Repository
 public interface ClienteRepository extends CrudRepository<Cliente, Long> {
 
